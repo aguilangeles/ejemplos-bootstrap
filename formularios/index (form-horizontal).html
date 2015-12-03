@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<br>
+		<!--form inline: elementos alineados en una misma fila
+		form-group: agrupamiento
+		sr-only: visible solo en dispositivos de lectura (algunos dispositivos no soportan placehoder)
+		input-group-addon: incluye el valor en el input
+
+		-->
+		<form action="" class="form-horizontal">
+			<fieldset>
+				
+		
+			<div class="form-group has-success">
+				<label for="" class="control-label col-md-2" id="nombre" >NOMBRE</label>
+				<div class="col-md-10">
+				<input type="text" class="form-control" id="nombre" placeholder="nombre:">
+				</div>
+			</div>
+			
+			<div class="form-group has-warning">
+				<label for="nombre" class="control-label col-md-2">nombre:</label>
+				<div class="col-md-10">
+					<p class="form-control-static">DLMA</p>
+				</div>
+			</div>
+			<div class="form-group has-error">
+					<label for="correo" class="control-label col-md-2">Correo:</label>
+				<div class="col-md-10">
+					<input type="text" class="form-control" id="correo" placeholder="correo">
+				</div>
+			</div>
+			<div class="form-group">
+			<div class="checkbox col-md-2 col-md-offset-2">
+				<label>
+					<input type="checkbox" name"" id="" >Recuerdame	
+				</label>
+			</div>
+				
+			</div>
+			<div class="form-group">
+				<div class="col-md-2 col-md-offset-2">
+					<button class="btn btn-primary">Enviar</button>
+				</div>
+			</div>
+			</fieldset>
+		</form>
+		
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
